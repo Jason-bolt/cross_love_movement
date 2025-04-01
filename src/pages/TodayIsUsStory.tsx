@@ -2,7 +2,7 @@ const TodayIsUsStory = () => {
   return (
     <section
       className="flex flex-col items-center justify-center bg-amber-50 pt-4 pb-12 md:items-start"
-      id="about_us"
+      id="today_is_us_story"
     >
       <div className="flex flex-col items-center justify-center space-y-4 p-4 max-w-6xl mx-auto md:p-8 md:items-start">
         <h1 className="text-amber-800 text-4xl py-2 font-bold">Today Is Us</h1>

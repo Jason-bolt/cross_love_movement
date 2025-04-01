@@ -13,13 +13,25 @@ const Team = () => {
           <TeamCard
             name="Isaac Nkrumah-Dadzie"
             role="founder/project coordinator"
-            linkedin=""
+            linkedin="https://www.linkedin.com/in/isaacnkrumah-dadzie/"
             imageUrl="https://cross-lovemovement.my.canva.site/_assets/media/9f2f6405837cd19e5c5e588293ca704c.jpg"
           />
           <TeamCard
-            name="Isaac Nkrumah-Dadzie"
-            role="founder/project coordinator"
-            linkedin=""
+            name="Edward O. Agyemang"
+            role="executive member/secretary"
+            linkedin="https://www.linkedin.com/in/ing-edward-opoku-agyemang-pe-ghie-1b406b75/"
+            imageUrl="https://cross-lovemovement.my.canva.site/_assets/media/9f2f6405837cd19e5c5e588293ca704c.jpg"
+          />
+          <TeamCard
+            name="Adlaide Osei-Bonsu"
+            role="executive member/organizing"
+            linkedin="https://www.linkedin.com/in/adelaide-gyamfua-osei-bonsu-b90295276/"
+            imageUrl="https://cross-lovemovement.my.canva.site/_assets/media/9f2f6405837cd19e5c5e588293ca704c.jpg"
+          />
+          <TeamCard
+            name="Seth Assa-Awuah"
+            role="executive member/advisor"
+            linkedin="https://www.linkedin.com/in/seth-assa-awuah-3b612585/"
             imageUrl="https://cross-lovemovement.my.canva.site/_assets/media/9f2f6405837cd19e5c5e588293ca704c.jpg"
           />
         </div>

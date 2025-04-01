@@ -88,7 +88,7 @@ const Layout = () => {
               Our Work
             </a>
             <a
-              href="#current_project"
+              href="#today_is_us"
               className={classNames(
                 "text-heading-text",
                 "hover:text-heading-text-dark hover:font-bold",
@@ -203,7 +203,7 @@ const Layout = () => {
               Our Work
             </a>
             <a
-              href="#current_project"
+              href="#today_is_us"
               className={classNames(
                 "text-heading-text",
                 "block py-2",

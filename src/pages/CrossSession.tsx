@@ -2,7 +2,7 @@ const CrossSession = () => {
   return (
     <section
       className="flex flex-col items-center justify-center bg-amber-800 pt-4 pb-12 md:items-start"
-      id="about_us"
+      id="cross_session"
     >
       <div className="flex flex-col items-center justify-center space-y-4 p-4 max-w-6xl mx-auto md:p-8 md:items-start">
         <h1 className="text-amber-50 text-4xl py-2 font-bold">Cross Session</h1>
