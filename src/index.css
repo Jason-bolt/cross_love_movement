@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --color-heading-text: #304254;
+  --color-heading-text-dark: #203244;
+  --color-heading-text-darker: #102234;
+  --color-header-text: #4f2f17;
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
