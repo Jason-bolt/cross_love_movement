@@ -1,5 +1,5 @@
 import { CiLinkedin } from "react-icons/ci";
-import { FaInstagram, FaPhoneAlt } from "react-icons/fa";
+import { FaArrowUp, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FiYoutube } from "react-icons/fi";
 import { IoIosMail } from "react-icons/io";
@@ -8,9 +8,15 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <section
-      className="flex flex-col items-center justify-center bg-amber-900 pt-4 pb-12 md:items-start"
-      id="about_us"
+      className="flex flex-col items-center justify-center bg-amber-900 pt-4 pb-12 relative md:items-start"
+      id="contact_us"
     >
+      <a
+        href={"#home"}
+        className="absolute bottom-5 right-5 p-3 rounded-full bg-amber-50 hover:shadow-lg hover:shadow-amber-600 hover:transition hover:duration-300 hover:ease-in-out hover:cursor-pointer"
+      >
+        <FaArrowUp className="text-amber-800 text-3xl" />
+      </a>
       <div className="flex flex-col items-center justify-center max-w-6xl p-4 mx-auto md:p-8">
         <div className="flex flex-col gap-6 items-center justify-center md:flex-row">
           <div className="flex-col items-center justify-center gap-7 text-center text-amber-50 text-lg md:w-1/2 md:text-start">

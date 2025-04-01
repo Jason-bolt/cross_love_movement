@@ -4,7 +4,7 @@ const Gallery = () => {
   return (
     <section
       className="flex flex-col items-center justify-center bg-amber-50 pt-4 pb-12 md:items-start"
-      id="our_team"
+      id="gallery"
     >
       <div className="flex flex-col items-center justify-center space-y-4 p-4 w-full max-w-6xl mx-auto md:p-8 md:items-start">
         <h1 className="text-amber-800 text-4xl py-2 font-bold">Gallery</h1>

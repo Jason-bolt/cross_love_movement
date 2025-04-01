@@ -2,7 +2,7 @@ const TodayIsUs = () => {
   return (
     <section
       className="flex flex-col items-center justify-center bg-amber-50 pt-4 pb-12 md:items-start"
-      id="about_us"
+      id="today_is_us"
     >
       <div className="flex flex-col items-center justify-center max-w-6xl p-4 mx-auto md:p-8">
         <div className="flex flex-col gap-6 items-center justify-center md:flex-row">
@@ -22,7 +22,7 @@ const TodayIsUs = () => {
             </p>
             <div className="mt-5 hidden md:block">
               <a
-                href="#today-is-us-story"
+                href="#today_is_us_story"
                 className="py-2 px-4 rounded bg-amber-800 text-white"
               >
                 Learn more

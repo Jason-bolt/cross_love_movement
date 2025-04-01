@@ -13,7 +13,7 @@ const NewsCard = ({ imageUrl, title, shortBody, link }: INews) => {
           className={`bg-[url(${imageUrl})] bg-center bg-no-repeat bg-cover w-full h-70`}
         ></div> */}
         <div className="w-full h-96 overflow-hidden">
-          <img src={imageUrl} alt={title} className="object-fill" />
+          <img src={imageUrl} alt={title} className="object-cover w-full" />
         </div>
         <div className="flex flex-col items-center justify-center p-4">
           <p className="text-amber-900 text-xl font-bold">{title}</p>
