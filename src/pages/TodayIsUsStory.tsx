@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const TodayIsUsStory = () => {
   return (
     <section
@@ -62,8 +64,14 @@ const TodayIsUsStory = () => {
               campaign’s outreach efforts, spreading the message of peace to
               more communities and encouraging conversations about unity and
               collaboration. Explore our collection in our{" "}
-              <strong className="text-amber-800">merch shop</strong> today to
-              rock on peace proudly!
+              <Link
+                to={"https://paystack.shop/bloodline-apparels"}
+                target="_blank"
+                className="text-amber-800 font-bold"
+              >
+                merch shop
+              </Link>{" "}
+              today to rock on peace proudly!
             </p>
 
             <p>
